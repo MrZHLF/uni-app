@@ -1,0 +1,95 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus":{
+					// 隐藏滚动条
+					"scrollIndicator":"none",
+					"titleNView":{
+						// 搜索框配置
+						"searchInput":{
+							"align":"center",
+							"placeholder":"搜索糗事",
+							"backgroundColor":"#F7F7F7",
+							"borderRadius":"4px",
+							"placeholderColor":"#CCCCCC",
+							"disabled":true
+						},
+						// 配置按钮
+						"buttons":[
+							// 左边
+							{
+								"color":"#FF9619",
+								"colorPressed":"#BBBBBB",
+								"float":"left",
+								"fontSize":"22px",
+								"fontSrc":"/static/font/icon.ttf",
+								"text":"\ue609"
+							},
+							// 右边
+							{
+								"color":"#000000",
+								"colorPressed":"#BBBBBB",
+								"float":"right",
+								"fontSize":"22px",
+								"fontSrc":"/static/font/icon.ttf",
+								"text":"\ue653"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path":"pages/news/news",
+			"style":{}
+		},
+		{
+			"path":"pages/paper/paper",
+			"style":{}
+		},
+		{
+			"path":"pages/home/home",
+			"style":{}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "仿糗事百科",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar":{
+		"color":"#B5B5B5",
+		"selectedColor":"#FEE42B",
+		"borderStyle":"black",
+		"backgroundColor":"#FFFFFF",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"糗事",
+				"iconPath":"/static/tabbar/index.png",
+				"selectedIconPath":"/static/tabbar/indexed.png"
+			},
+			{
+				"pagePath":"pages/news/news",
+				"text":"动态",
+				"iconPath":"/static/tabbar/news.png",
+				"selectedIconPath":"/static/tabbar/newsed.png"
+			},
+			{
+				"pagePath":"pages/paper/paper",
+				"text":"小纸条",
+				"iconPath":"/static/tabbar/paper.png",
+				"selectedIconPath":"/static/tabbar/papered.png"
+			},
+			{
+				"pagePath":"pages/home/home",
+				"text":"我的",
+				"iconPath":"/static/tabbar/home.png",
+				"selectedIconPath":"/static/tabbar/homeed.png"
+			}
+		]
+	}
+}

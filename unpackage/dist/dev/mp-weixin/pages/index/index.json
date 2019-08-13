@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "index-list": "/components/index/index-list/index-list"
+  }
+}

@@ -1,0 +1,1 @@
+<view><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><index-list vue-id="{{'1-'+index}}" item="{{item}}" index="{{index}}" bind:__l="__l"></index-list></block></block></view>

@@ -1,0 +1,1 @@
+<view><block a:for="{{list}}" a:for-item="item" a:for-index="index" a:key="index"><block><index-list vue-id="{{'1-'+index}}" item="{{item}}" index="{{index}}" onVueInit="__l"></index-list></block></block></view>
