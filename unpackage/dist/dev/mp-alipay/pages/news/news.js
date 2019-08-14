@@ -147,9 +147,9 @@ __webpack_require__.r(__webpack_exports__);
         list: [
         // 文字
         {
-          userpic: "../../static/demo/userpic/12.jpg",
+          userpic: "../../static/demo/userpic/2.jpg",
           username: "哈哈",
-          sex: 0, //0 男 1 女
+          sex: 1, //0 男 1 女
           age: 25,
           isguanzhu: false,
           title: "我是标题",
@@ -163,7 +163,7 @@ __webpack_require__.r(__webpack_exports__);
 
         // 图文
         {
-          userpic: "../../static/demo/userpic/12.jpg",
+          userpic: "../../static/demo/userpic/1.jpg",
           username: "哈哈",
           sex: 0, //0 男 1 女
           age: 25,
@@ -181,7 +181,7 @@ __webpack_require__.r(__webpack_exports__);
         {
           userpic: "../../static/demo/userpic/12.jpg",
           username: "哈哈",
-          sex: 0, //0 男 1 女
+          sex: 1, //0 男 1 女
           age: 25,
           isguanzhu: false,
           title: "我是标题",

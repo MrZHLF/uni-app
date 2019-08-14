@@ -16,9 +16,9 @@
 						</template>
 						<template v-else>
 							<!-- 无内容显示 -->
-							<!-- <view class="nothing u-f-ajc animated fadeIn">
+							<view class="nothing u-f-ajc animated fadeIn">
 								<image src="/static/common/nothing.png" mode="widthFix"></image>
-							</view> -->
+							</view>
 							<noThing></noThing>
 						</template>
 						

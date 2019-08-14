@@ -100,13 +100,19 @@
 		font-size: 26upx;
 	}
 	.tag-sex{
-		background: #007AFF;
+		
 		color: #FFFFFF;
 		font-size: 23upx;
 		padding: 5upx 10upx;
 		margin-left: 10upx;
 		border-radius: 20upx;
 		line-height: 22upx;
+	}
+	.icon-nan.tag-sex{
+		background: #007AFF;
+	}
+	.icon-nv.tag-sex{
+		background: pink;
 	}
 	.common-list-r>view:nth-child(2){
 		font-size: 32upx;
