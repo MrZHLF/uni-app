@@ -1,1 +1,41 @@
-/* pages/news/news.wxss */
+
+.nav-right>view,.nav-left>view{
+	font-size: 40rpx;
+}
+.nav-left>view{
+	color: #FF9619;
+}
+.nav-left{
+	margin-left: 16rpx;
+}
+.nav-right{
+	width: 100%;
+}
+.nav-tab-bar{
+	width: 100%;
+	margin-left: -20rpx;
+	position: relative;
+}
+.nav-tab-bar>view{
+	font-size: 35rpx;
+	padding: 0 15rpx;
+	font-weight: bold;
+	color: #969696;
+}
+.active{
+	color: #333333 !important;
+}
+.nav-tab-bar-line{
+	position: absolute;
+	bottom: 0rpx;
+	border-bottom: 5rpx solid #FEDE33;
+	border-top: 5rpx solid #FEDE33;
+	width: 70rpx;
+	border-radius: 20rpx;
+}
+
+.uni-status-bar{
+		height: 0!important;
+}
+
+

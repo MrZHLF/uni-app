@@ -6,6 +6,7 @@
 				"app-plus":{
 					// 隐藏滚动条
 					"scrollIndicator":"none",
+					"bounce":"none",
 					"titleNView":{
 						// 搜索框配置
 						"searchInput":{
@@ -43,7 +44,13 @@
 		},
 		{
 			"path":"pages/news/news",
-			"style":{}
+			"style":{
+				"app-plus":{
+					"titleNView":false,
+					"bounce":"none"
+					
+				}
+			}
 		},
 		{
 			"path":"pages/paper/paper",
@@ -53,7 +60,52 @@
 			"path":"pages/home/home",
 			"style":{}
 		}
-	],
+	    ,{
+            "path" : "pages/search/search",
+            "style" : {
+				"app-plus":{
+					// 隐藏滚动条
+					"scrollIndicator":"none",
+					"bounce":"none",
+					"titleNView":{
+						"autoBackButton":false, //导航返回按钮
+						// 搜索框配置
+						"searchInput":{
+							"align":"left",
+							"placeholder":"搜索糗事",
+							"backgroundColor":"#F7F7F7",
+							"borderRadius":"4px",
+							"placeholderColor":"#CCCCCC",
+							"disabled":false
+						},
+						// 配置按钮
+						"buttons":[
+							// 右边
+							{
+								"color":"#000000",
+								"colorPressed":"#BBBBBB",
+								"float":"right",
+								"fontSize":"16px",
+								"text":"取消"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/add-input/add-input",
+            "style" : {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+        }
+        ,{
+            "path" : "components/common/uploud-images/uploud-images",
+            "style" : {}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "仿糗事百科",

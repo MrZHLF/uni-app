@@ -3,7 +3,10 @@
     "pages/index/index",
     "pages/news/news",
     "pages/paper/paper",
-    "pages/home/home"
+    "pages/home/home",
+    "pages/search/search",
+    "pages/add-input/add-input",
+    "components/common/uploud-images/uploud-images"
   ],
   "window": {
     "defaultTitle": "仿糗事百科",

@@ -1,5 +1,6 @@
 {
   "scrollIndicator": "none",
+  "bounce": "none",
   "titleNView": {
     "searchInput": {
       "align": "center",
@@ -29,6 +30,9 @@
     ]
   },
   "usingComponents": {
-    "index-list": "/components/index/index-list/index-list"
+    "index-list": "/components/index/index-list",
+    "swiper-tab-head": "/components/index/swiper-tab-head",
+    "load-more": "/components/common/load-more",
+    "no-thing": "/components/common/no-thing"
   }
 }
