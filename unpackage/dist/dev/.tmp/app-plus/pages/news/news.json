@@ -4,6 +4,7 @@
   "usingComponents": {
     "news-nav-bar": "/components/news/news-nav-bar",
     "common-list": "/components/common/common-list",
-    "load-more": "/components/common/load-more"
+    "load-more": "/components/common/load-more",
+    "topic-nav": "/components/news/topic-nav"
   }
 }

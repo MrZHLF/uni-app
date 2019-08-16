@@ -1,0 +1,25 @@
+{
+  "scrollIndicator": "none",
+  "bounce": "none",
+  "titleNView": {
+    "autoBackButton": false,
+    "searchInput": {
+      "align": "left",
+      "placeholder": "搜索糗事",
+      "backgroundColor": "#F7F7F7",
+      "borderRadius": "4px",
+      "placeholderColor": "#CCCCCC",
+      "disabled": false
+    },
+    "buttons": [
+      {
+        "color": "#000000",
+        "colorPressed": "#BBBBBB",
+        "float": "right",
+        "fontSize": "16px",
+        "text": "取消"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

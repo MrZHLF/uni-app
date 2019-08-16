@@ -1,0 +1,40 @@
+
+.cell-pd {
+	padding: 22rpx 30rpx;
+}
+.list-pd {
+	margin-top: 50rpx;
+}
+.uni-uploader__file {
+	position: relative;
+	z-index: 1;
+}
+.icon-shanchu {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: #333333;
+	color: #FFFFFF;
+	padding: 2rpx 10rpx;
+	border-radius: 10rpx;
+	z-index: 999;
+}
+
+
+.uni-textarea{
+	border: 1rpx solid #EEEEEE;
+}
+.gonggao{
+	width: 500rpx;
+}
+.gonggao image{
+	width: 75%;
+	margin-bottom: 20rpx;
+}
+.gonggao button{
+	margin-top: 20rpx;
+	background: #FFE934;
+	color: #171606;
+}
+
+

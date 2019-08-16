@@ -1,0 +1,51 @@
+
+.search-input{
+	padding: 20rpx;
+}
+.search-input input{
+	background: #F4F4F4;
+	border-radius: 10rpx;
+}
+.topic-search{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	font-size: 27rpx;
+}
+.topic-swiper{
+	padding: 0 20rpx 20rpx 20rpx;
+}
+.topic-swiper image{
+	width: 100%;
+	border-radius: 10rpx;
+}
+.topic-new{
+	padding: 20rpx;
+}
+.topic-new>view:first-child{
+	padding-bottom: 10rpx;
+	font-size: 32rpx;
+}
+.topic-list{
+	padding: 10rpx 0;
+	border-bottom: 1rpx solid #EEEEEE;
+}
+.topic-list image {
+	width: 150rpx;
+	height: 150rpx;
+	border-radius: 10rpx;
+	margin-right: 10rpx;
+}
+.topic-list>view>view{
+	color: #A4A4A4;
+}
+.topic-list>view>view:first-child{
+	color: #333333;
+	font-size: 32rpx;
+}
+

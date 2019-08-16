@@ -31,7 +31,7 @@
 	}
 </script>
 
-<style>
+<style scoped>
 	.uni-swiper-tab{
 		border-bottom: 1upx solid #EEEEEE;
 	}
@@ -50,10 +50,30 @@
 		border-radius: 20upx;
 	}
 	/* #ifdef H5 */
-		::-webkit-scrollbar{
+		.uni-tab-bar::-webkit-scrollbar{
 			width: 0;
 			height: 0;
 			color: transparent;
+		}
+		.uni-tab-bar::-webkit-scrollbar {
+			width: 0px;
+			display: none;
+		}
+		
+		.uni-tab-bar::-webkit-scrollbar-track {
+			background-color: none;
+		}
+		
+		.uni-tab-bar::-webkit-scrollbar-thumb {
+			background-color: none;
+		}
+		
+		.uni-tab-bar::-webkit-scrollbar-thumb:hover {
+			background-color: none;
+		}
+		
+		.uni-tab-bar::-webkit-scrollbar-thumb:active {
+			background-color: none;
 		}
 	/* #endif */
 </style>
