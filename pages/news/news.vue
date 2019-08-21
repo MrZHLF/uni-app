@@ -33,14 +33,10 @@
 						<!-- 最近更新 -->
 						<view class="topic-new">
 							<view>最近更新</view>
-							<view class="topic-list u-f">
-								<image src="../../static/demo/topicpic/15.jpeg" mode="widthFix" lazy-load></image>
-								<view>
-									<view>#话题名称#</view>
-									<view>话题描述</view>
-									<view>动态 10 今日 5</view>
-								</view>
-							</view>
+							<block v-for="(item,index) in topic.list" :key="index">
+								<topicList :item="item" :index="index"></topicList>
+							</block>
+							
 						</view>
 					</scroll-view>
 				</swiper-item>
@@ -52,6 +48,7 @@
 <script>
 	import newsNavBar from "../../components/news/news-nav-bar"
 	import topicNav from "../../components/news/topic-nav"
+	import topicList from "../../components/news/topic-list"
 	import loadMore from "../../components/common/load-more"
 	import commonList from "../../components/common/common-list"
 	export default {
@@ -76,7 +73,51 @@
 						{name:"情感"},
 						{name:"故事"},
 						{name:"喜爱"},
-					]
+					],
+					list:[
+							{
+								titlepic:"/static/demo/topicpic/1.jpeg",
+								title:"话题名称1",
+								desc:"我是话题描述1",
+								totalnum:50,
+								todaynum:10
+							},
+							{
+								titlepic:"/static/demo/topicpic/2.jpeg",
+								title:"话题名称2",
+								desc:"我是话题描述2",
+								totalnum:50,
+								todaynum:10
+							},
+							{
+								titlepic:"/static/demo/topicpic/3.jpeg",
+								title:"话题名称3",
+								desc:"我是话题描述3",
+								totalnum:50,
+								todaynum:10
+							},
+							{
+								titlepic:"/static/demo/topicpic/4.jpeg",
+								title:"话题名称5",
+								desc:"我是话题描述5",
+								totalnum:50,
+								todaynum:10
+							},
+							{
+								titlepic:"/static/demo/topicpic/5.jpeg",
+								title:"话题名称4",
+								desc:"我是话题描述4",
+								totalnum:50,
+								todaynum:10
+							},
+							{
+								titlepic:"/static/demo/topicpic/6.jpeg",
+								title:"话题名称6",
+								desc:"我是话题描述6",
+								totalnum:50,
+								todaynum:10
+							}
+						]
 				},
 				guanzhu:{
 					loadtext:"上拉加载更多",
@@ -168,7 +209,8 @@
 			newsNavBar,
 			commonList,
 			loadMore,
-			topicNav
+			topicNav,
+			topicList
 		},
 		methods: {
 			//点击切换
@@ -234,25 +276,9 @@
 		padding: 20upx;
 	}
 	.topic-new>view:first-child{
-		padding-bottom: 10upx;
+		padding-bottom: 5upx;
 		font-size: 32upx;
 		
 	}
-	.topic-list{
-		padding: 10upx 0;
-		border-bottom: 1upx solid #EEEEEE;
-	}
-	.topic-list image {
-		width: 150upx;
-		height: 150upx;
-		border-radius: 10upx;
-		margin-right: 10upx;
-	}
-	.topic-list>view>view{
-		color: #A4A4A4;
-	}
-	.topic-list>view>view:first-child{
-		color: #333333;
-		font-size: 32upx;
-	}
+	
 </style>

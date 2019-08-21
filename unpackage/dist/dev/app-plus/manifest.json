@@ -87,7 +87,7 @@
       }
     },
     "uni-app": {
-      "compilerVersion": "2.2.1",
+      "compilerVersion": "2.2.2",
       "control": "v8",
       "nvueCompiler": "weex",
       "renderer": "auto"

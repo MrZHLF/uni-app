@@ -24,24 +24,28 @@
 	width: 100%;
 	border-radius: 10rpx;
 }
-.topic-nav{
-	border-top: 1rpx solid #EEEEEE;
-	border-bottom: 1rpx solid #EEEEEE;
+.topic-new{
 	padding: 20rpx;
 }
-.topic-nav>view:first-child{
-	margin-bottom: 10rpx;
+.topic-new>view:first-child{
+	padding-bottom: 10rpx;
+	font-size: 32rpx;
 }
-.topic-nav>view:last-child{
+.topic-list{
+	padding: 10rpx 0;
+	border-bottom: 1rpx solid #EEEEEE;
 }
-.topic-nav>view:last-child>view{
-	-webkit-box-flex: 1;
-	-webkit-flex: 1;
-	    -ms-flex: 1;
-	        flex: 1;
-	background: #DDDDDD;
-	color: #9E9E9E;
+.topic-list image {
+	width: 150rpx;
+	height: 150rpx;
 	border-radius: 10rpx;
-	margin: 0 10rpx;
+	margin-right: 10rpx;
+}
+.topic-list>view>view{
+	color: #A4A4A4;
+}
+.topic-list>view>view:first-child{
+	color: #333333;
+	font-size: 32rpx;
 }
 

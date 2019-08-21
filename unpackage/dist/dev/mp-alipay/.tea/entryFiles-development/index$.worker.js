@@ -31,6 +31,7 @@ require('../../components/uni-icon/uni-icon');
 require('../../components/uni-nav-bar/uni-nav-bar');
 require('../../components/news/news-nav-bar');
 require('../../components/common/common-list');
+require('../../components/news/topic-nav');
 require('../../components/common/uploud-images/uploud-images');
 require('../../components/uni-popup/uni-popup');
 require('../../pages/index/index');

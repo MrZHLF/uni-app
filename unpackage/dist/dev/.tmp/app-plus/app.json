@@ -6,7 +6,10 @@
     "pages/home/home",
     "pages/search/search",
     "pages/add-input/add-input",
-    "components/common/uploud-images/uploud-images"
+    "components/common/uploud-images/uploud-images",
+    "components/news/topic-list",
+    "pages/topic-nav/topic-nav",
+    "pages/topic-detail/topic-detail"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -53,6 +56,6 @@
     "autoclose": false
   },
   "appname": "仿糗事百科",
-  "compilerVersion": "2.2.1",
+  "compilerVersion": "2.2.2",
   "usingComponents": {}
 }

@@ -105,10 +105,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var newsNavBar = function newsNavBar() {return __webpack_require__.e(/*! import() | components/news/news-nav-bar */ "components/news/news-nav-bar").then(__webpack_require__.bind(null, /*! ../../components/news/news-nav-bar */ 90));};var loadMore = function loadMore() {return __webpack_require__.e(/*! import() | components/common/load-more */ "components/common/load-more").then(__webpack_require__.bind(null, /*! ../../components/common/load-more */ 76));};var commonList = function commonList() {return __webpack_require__.e(/*! import() | components/common/common-list */ "components/common/common-list").then(__webpack_require__.bind(null, /*! ../../components/common/common-list */ 97));};var _default =
-
-
-
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var newsNavBar = function newsNavBar() {return __webpack_require__.e(/*! import() | components/news/news-nav-bar */ "components/news/news-nav-bar").then(__webpack_require__.bind(null, /*! ../../components/news/news-nav-bar */ 90));};var topicNav = function topicNav() {return __webpack_require__.e(/*! import() | components/news/topic-nav */ "components/news/topic-nav").then(__webpack_require__.bind(null, /*! ../../components/news/topic-nav */ 97));};var loadMore = function loadMore() {return __webpack_require__.e(/*! import() | components/common/load-more */ "components/common/load-more").then(__webpack_require__.bind(null, /*! ../../components/common/load-more */ 76));};var commonList = function commonList() {return __webpack_require__.e(/*! import() | components/common/common-list */ "components/common/common-list").then(__webpack_require__.bind(null, /*! ../../components/common/common-list */ 104));};var _default =
 
 
 
@@ -177,7 +174,59 @@ __webpack_require__.r(__webpack_exports__);
         swiper: [
         { src: "/static/demo/banner1.jpg" },
         { src: "/static/demo/banner2.jpg" },
-        { src: "/static/demo/banner3.jpg" }] },
+        { src: "/static/demo/banner3.jpg" }],
+
+        nav: [
+        { name: "最新" },
+        { name: "游戏" },
+        { name: "打开" },
+        { name: "情感" },
+        { name: "故事" },
+        { name: "喜爱" }],
+
+        list: [
+        {
+          titlepic: "/static/demo/topicpic/1.jpeg",
+          title: "话题名称",
+          desc: "我是话题描述",
+          totalnum: 50,
+          todaynum: 10 },
+
+        {
+          titlepic: "/static/demo/topicpic/2.jpeg",
+          title: "话题名称",
+          desc: "我是话题描述",
+          totalnum: 50,
+          todaynum: 10 },
+
+        {
+          titlepic: "/static/demo/topicpic/3.jpeg",
+          title: "话题名称",
+          desc: "我是话题描述",
+          totalnum: 50,
+          todaynum: 10 },
+
+        {
+          titlepic: "/static/demo/topicpic/4.jpeg",
+          title: "话题名称",
+          desc: "我是话题描述",
+          totalnum: 50,
+          todaynum: 10 },
+
+        {
+          titlepic: "/static/demo/topicpic/5.jpeg",
+          title: "话题名称",
+          desc: "我是话题描述",
+          totalnum: 50,
+          todaynum: 10 },
+
+        {
+          titlepic: "/static/demo/topicpic/6.jpeg",
+          title: "话题名称",
+          desc: "我是话题描述",
+          totalnum: 50,
+          todaynum: 10 }] },
+
 
 
       guanzhu: {
@@ -269,7 +318,8 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     newsNavBar: newsNavBar,
     commonList: commonList,
-    loadMore: loadMore },
+    loadMore: loadMore,
+    topicNav: topicNav },
 
   methods: {
     //点击切换

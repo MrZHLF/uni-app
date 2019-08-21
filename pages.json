@@ -105,6 +105,35 @@
             "path" : "components/common/uploud-images/uploud-images",
             "style" : {}
         }
+        ,{
+            "path" : "components/news/topic-list",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/topic-nav/topic-nav",
+            "style" : {
+				"navigationBarTitleText":"话题分类",
+				"app-plus":{
+					"bounce":"none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/topic-detail/topic-detail",
+            "style" : {
+				"app-plus":{
+					"scrollIndicator":"none", //隐藏滚动条
+					"titleNView":{
+						"type":"transparent", //渐变
+						"buttons":[
+							{
+								"type":"menu"
+							}
+						]
+					}
+				}
+			}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
