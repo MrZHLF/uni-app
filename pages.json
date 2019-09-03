@@ -54,7 +54,35 @@
 		},
 		{
 			"path":"pages/paper/paper",
-			"style":{}
+			"style":{
+				"enablePullDownRefresh":true,
+				"navigationBarTitleText":"小纸条",
+				"app-plus":{
+					"titleNView":{
+						// 配置按钮
+						"buttons":[
+							// 左边
+							{
+								"color":"#000000",
+								"colorPressed":"#BBBBBB",
+								"float":"left",
+								"fontSize":"22px",
+								"fontSrc":"/static/font/icon.ttf",
+								"text":"\ue845"
+							},
+							// 右边
+							{
+								"color":"#000000",
+								"colorPressed":"#BBBBBB",
+								"float":"right",
+								"fontSize":"22px",
+								"fontSrc":"/static/font/icon.ttf",
+								"text":"\ue684"
+							}
+						]
+					}
+				}
+			}
 		},
 		{
 			"path":"pages/home/home",
@@ -121,6 +149,7 @@
         ,{
             "path" : "pages/topic-detail/topic-detail",
             "style" : {
+				"enablePullDownRefresh":true, //下拉刷新
 				"app-plus":{
 					"scrollIndicator":"none", //隐藏滚动条
 					"titleNView":{
@@ -133,6 +162,43 @@
 					}
 				}
 			}
+        },{
+            "path" : "components/paper/paper-list",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user-list/user-list",
+            "style" : {
+            	"app-plus":{
+					"animationType":"slide-in-left", //进入动画
+            		// 隐藏滚动条
+            		"scrollIndicator":"none",
+            		"bounce":"none",
+            		"titleNView":{
+            			"autoBackButton":false, //导航返回按钮
+            			// 搜索框配置
+            			"searchInput":{
+            				"align":"left",
+            				"placeholder":"搜索糗事",
+            				"backgroundColor":"#F7F7F7",
+            				"borderRadius":"4px",
+            				"placeholderColor":"#CCCCCC",
+            				"disabled":false
+            			},
+            			// 配置按钮
+            			"buttons":[
+            				// 右边
+            				{
+            					"color":"#000000",
+            					"colorPressed":"#BBBBBB",
+            					"float":"right",
+            					"fontSize":"16px",
+            					"text":"取消"
+            				}
+            			]
+            		}
+            	}
+            }
         }
     ],
 	"globalStyle": {

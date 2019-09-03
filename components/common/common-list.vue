@@ -8,7 +8,8 @@
 			<view class="u-f-ac u-f-jsb">
 				<!-- 左 -->
 				<view class="u-f-ac">
-					{{item.username}}<view class="tag-sex icon iconfont" :class="[item.sex == 0 ? 'icon-nan' : 'icon-nv']">{{item.age}}</view>
+					{{item.username}}
+					<tagSexAge :sex="item.sex" :age="item.age"></tagSexAge>
 				</view>
 				<!-- 右 -->
 				<view v-show="!isguanzhu" @tap="guanzhu" class="icon iconfont icon-zengjia">关注</view>
@@ -47,6 +48,7 @@
 </template>
 
 <script>
+	import tagSexAge from "./tag-sex-age"
 	export default {
 		props:{
 			item:Object,
@@ -64,6 +66,9 @@
 					title: "关注成功"
 				})
 			}
+		},
+		components:{
+			tagSexAge
 		}
 	}
 </script>
@@ -99,21 +104,7 @@
 		padding: 0 10upx;
 		font-size: 26upx;
 	}
-	.tag-sex{
-		
-		color: #FFFFFF;
-		font-size: 23upx;
-		padding: 5upx 10upx;
-		margin-left: 10upx;
-		border-radius: 20upx;
-		line-height: 22upx;
-	}
-	.icon-nan.tag-sex{
-		background: #007AFF;
-	}
-	.icon-nv.tag-sex{
-		background: pink;
-	}
+
 	.common-list-r>view:nth-child(2){
 		font-size: 32upx;
 		padding: 12upx 0;

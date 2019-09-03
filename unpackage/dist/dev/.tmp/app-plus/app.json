@@ -9,7 +9,9 @@
     "components/common/uploud-images/uploud-images",
     "components/news/topic-list",
     "pages/topic-nav/topic-nav",
-    "pages/topic-detail/topic-detail"
+    "pages/topic-detail/topic-detail",
+    "components/paper/paper-list",
+    "pages/user-list/user-list"
   ],
   "window": {
     "navigationBarTextStyle": "black",

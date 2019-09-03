@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "tag-sex-age": "/components/common/tag-sex-age"
+  },
   "component": true
 }

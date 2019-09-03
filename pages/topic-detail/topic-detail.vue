@@ -167,10 +167,39 @@
 			commonList,
 			loadMore
 		},
+		onPullDownRefresh() {
+			// 下拉刷新
+			this.getdata()
+		},
 		onReachBottom() {
+			//上拉
 			this.loadmore();
 		},
 		methods: {
+			getdata(){
+				//下拉刷新功能
+				setTimeout(()=>{
+					let arr = [
+						{
+							userpic:"../../static/demo/userpic/8.jpg",
+							username:"刷新",
+							sex:0, //0 男 1 女
+							age:20,
+							isguanzhu:false,
+							title:"我是刷新",
+							titlepic:"",
+							video:false,
+							share:false,
+							path:"深圳 龙岗",
+							sharenum:20,
+							commentnum:30,
+							goodnum:20
+						}
+					];
+					this.tablist[this.tabIndex].list=arr;
+					uni.stopPullDownRefresh()
+				},2000)
+			},
 			//接受子组件传过来的值点击切换导航
 			tabtap(index){
 				this.tabIndex = index;

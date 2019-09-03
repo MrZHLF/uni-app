@@ -1,4 +1,5 @@
 {
+  "enablePullDownRefresh": true,
   "scrollIndicator": "none",
   "titleNView": {
     "type": "transparent",
