@@ -11,7 +11,8 @@
     "pages/topic-nav/topic-nav",
     "pages/topic-detail/topic-detail",
     "components/paper/paper-list",
-    "pages/user-list/user-list"
+    "pages/user-list/user-list",
+    "pages/user-chat/user-chat"
   ],
   "window": {
     "navigationBarTextStyle": "black",

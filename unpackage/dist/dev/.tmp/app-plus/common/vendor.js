@@ -71,6 +71,18 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 
 /***/ }),
 
+/***/ 237:
+/*!*************************************************************************************!*\
+  !*** C:/Users/xiawa/Desktop/仿糗事百科/main.js?{"page":"pages%2Fuser-chat%2Fuser-chat"} ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _userChat = _interopRequireDefault(__webpack_require__(/*! ./pages/user-chat/user-chat.vue */ 238));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_userChat.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSx3RztBQUNBQSxVQUFVLENBQUNDLGlCQUFELENBQVYsQyIsImZpbGUiOiIyMzcuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJ3VuaS1wYWdlcyc7XG5cbmltcG9ydCBWdWUgZnJvbSAndnVlJyAgICAgICAgICAgIFxuaW1wb3J0IFBhZ2UgZnJvbSAnLi9wYWdlcy91c2VyLWNoYXQvdXNlci1jaGF0LnZ1ZSdcbmNyZWF0ZVBhZ2UoUGFnZSkiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///237\n");
+
+/***/ }),
+
 /***/ 3:
 /*!******************************************************************************************!*\
   !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js ***!

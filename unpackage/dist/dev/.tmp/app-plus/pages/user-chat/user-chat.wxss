@@ -1,0 +1,17 @@
+
+.user-chat-bottom{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100rpx;
+	padding:  0 20rpx;
+	border-top:1rpx solid;
+	background: #FFFFFF;
+}
+.user-chat-bottom>input{
+	border-top:1rpx solid;
+}
+.user-chat-bottom>view{
+}
+

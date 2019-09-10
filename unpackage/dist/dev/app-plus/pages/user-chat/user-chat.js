@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"user-chat-bottom{ position: fixed; bottom: 0; left: 0; right: 0; height: ",[0,100],"; padding: 0 ",[0,20],"; border-top:",[0,1]," solid; background: #FFFFFF; }\n.",[1],"user-chat-bottom\x3ewx-input{ border-top:",[0,1]," solid; }\n.",[1],"user-chat-bottom\x3ewx-view{ }\n",],undefined,{path:"./pages/user-chat/user-chat.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/user-chat/user-chat.wxml') } }));
