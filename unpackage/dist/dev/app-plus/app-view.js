@@ -1787,7 +1787,7 @@ __WXML_GLOBAL__.ops_cached.$gwx_28=[];
 Z([3,'user-chat-bottom u-f-ac'])
 Z([3,'文明发言'])
 Z([3,'text'])
-Z([3,'icon iconfont icon-fabu'])
+Z([3,'icon iconfont icon-fabu u-f-ajc'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_28);return __WXML_GLOBAL__.ops_cached.$gwx_28
 }
 function gz$gwx_29(){
@@ -3139,7 +3139,7 @@ __wxAppCode__['pages/topic-detail/topic-detail.wxml']=$gwx('./pages/topic-detail
 __wxAppCode__['pages/topic-nav/topic-nav.wxss']=setCssToHead([".",[1],"topic-list.",[1],"data-v-7b2bc6b1{ padding: ",[0,20]," 0; border-bottom: ",[0,1]," solid #EEEEEE; }\n.",[1],"topic-list wx-image.",[1],"data-v-7b2bc6b1 { width: ",[0,150],"; height: ",[0,150],"; border-radius: ",[0,10],"; margin-right: ",[0,10],"; }\n.",[1],"topic-list\x3ewx-view\x3ewx-view.",[1],"data-v-7b2bc6b1{ color: #A4A4A4; }\n.",[1],"topic-list\x3ewx-view\x3ewx-view.",[1],"data-v-7b2bc6b1:first-child{ color: #333333; font-size: ",[0,32],"; }\n.",[1],"topic-view{ padding: 0 ",[0,20],"; }\n",],undefined,{path:"./pages/topic-nav/topic-nav.wxss"});    
 __wxAppCode__['pages/topic-nav/topic-nav.wxml']=$gwx('./pages/topic-nav/topic-nav.wxml');
 
-__wxAppCode__['pages/user-chat/user-chat.wxss']=setCssToHead([".",[1],"user-chat-bottom{ position: fixed; bottom: 0; left: 0; right: 0; height: ",[0,100],"; padding: 0 ",[0,20],"; border-top:",[0,1]," solid; background: #FFFFFF; }\n.",[1],"user-chat-bottom\x3ewx-input{ border-top:",[0,1]," solid; }\n.",[1],"user-chat-bottom\x3ewx-view{ }\n",],undefined,{path:"./pages/user-chat/user-chat.wxss"});    
+__wxAppCode__['pages/user-chat/user-chat.wxss']=setCssToHead([".",[1],"user-chat-bottom{ position: fixed; bottom: 0; left: 0; right: 0; height: ",[0,100],"; padding: 0 ",[0,20],"; border-top:",[0,1]," solid; background: #FFFFFF; }\n.",[1],"user-chat-bottom\x3ewx-input{ border-top:",[0,1]," solid; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; margin-right: ",[0,20],"; }\n.",[1],"user-chat-bottom\x3ewx-view{ width: ",[0,80],"; }\n",],undefined,{path:"./pages/user-chat/user-chat.wxss"});    
 __wxAppCode__['pages/user-chat/user-chat.wxml']=$gwx('./pages/user-chat/user-chat.wxml');
 
 __wxAppCode__['pages/user-list/user-list.wxss']=undefined;    
