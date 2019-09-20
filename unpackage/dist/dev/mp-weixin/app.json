@@ -6,7 +6,14 @@
     "pages/home/home",
     "pages/search/search",
     "pages/add-input/add-input",
-    "components/common/uploud-images/uploud-images"
+    "components/common/uploud-images/uploud-images",
+    "components/news/topic-list",
+    "pages/topic-nav/topic-nav",
+    "pages/topic-detail/topic-detail",
+    "components/paper/paper-list",
+    "pages/user-list/user-list",
+    "pages/user-chat/user-chat",
+    "pages/detail/detail"
   ],
   "subPackages": [],
   "window": {
@@ -47,6 +54,5 @@
       }
     ]
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "usingComponents": {}
 }

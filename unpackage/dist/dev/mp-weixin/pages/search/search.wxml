@@ -1,1 +1,1 @@
-<view>搜索页面</view>
+<view><block wx:if="{{list.length>0}}"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><indx-list vue-id="{{'1-'+index}}" item="{{item}}" index="{{index}}" bind:__l="__l"></indx-list></block></block><load-more vue-id="2" loadtext="{{loadtext}}" bind:__l="__l"></load-more></block><block wx:else><block wx:if="{{issearch&&list.length<1}}"><no-thing vue-id="3" bind:__l="__l"></no-thing></block></block></view>
