@@ -63,7 +63,7 @@
 			//监听原生导航右边事件
 			if(e.index == 0) {
 				// 点击分享
-				this.togle()
+				this.togle();
 			}
 		},
 		methods: {
