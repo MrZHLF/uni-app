@@ -1,2 +1,1 @@
-# uni-app
-uni-app仿糗事百科
+# uni-app多端开发

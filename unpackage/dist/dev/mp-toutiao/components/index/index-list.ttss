@@ -1,0 +1,61 @@
+
+.index-list {
+	padding: 20rpx;
+	border-bottom: 1rpx solid #EEEEEE;
+}
+.index-list1>view:first-child {
+	color: #999999;
+}
+.index-list1>view:first-child image {
+	width: 85rpx;
+	height: 85rpx;
+	border-radius: 100%;
+	margin-right: 10rpx;
+}
+.index-list1>view:last-child {
+	background: #F4F4F4;
+	border-radius: 5rpx;
+	padding: 0 10rpx;
+}
+.index-list2 {
+	padding-top: 15rpx;
+	font-size: 32rpx;
+}
+.index-list3 {
+	position: relative;
+	padding-top: 15rpx;
+}
+.index-list3>image {
+	width: 100%;
+	border-radius: 20rpx;
+}
+.index-list4 {
+	padding: 15rpx 0;
+}
+.index-list4 view {
+	color: #999999;
+}
+.index-list4>view>view>view,
+.index-list4>view>view:first-child {
+	margin-right: 10rpx;
+}
+.index-list-play {
+	position: absolute;
+	font-size: 140rpx;
+	color: #FFFFFF;
+}
+.index-list-playinfo {
+	position: absolute;
+	background: rgba(51, 51, 51, 0.72);
+	color: #FFFFFF;
+	bottom: 8rpx;
+	right: 8rpx;
+	border-radius: 40rpx;
+	font-size: 22rpx;
+	padding: 0 12rpx;
+}
+.index-list4 .active,
+.index-list4 .active>view {
+	color: #C5F61C;
+}
+

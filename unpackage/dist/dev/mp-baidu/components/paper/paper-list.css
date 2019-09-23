@@ -1,0 +1,32 @@
+
+.paper-list.data-v-264ac725{
+	border-bottom: 1px solid #EEEEEE;
+	padding: 20rpx 0;
+}
+.paper-list>image.data-v-264ac725{
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 100%;
+	margin-right: 20rpx;
+	-webkit-flex-shrink: 0;
+	    -ms-flex-negative: 0;
+	        flex-shrink: 0;
+}
+.paper-list>view.data-v-264ac725{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+}
+.paper-list>view>view.data-v-264ac725:first-child {
+	font-size: 35rpx;
+}
+.paper-list>view>view:first-child>view.data-v-264ac725{
+	color: #CBCBCB;
+}
+.paper-list>view>view.data-v-264ac725:last-child{
+	color: #999999;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vQzovVXNlcnMvemhvdS9EZXNrdG9wL+S7v+ezl+S6i+eZvuenkS9jb21wb25lbnRzL3BhcGVyL3BhcGVyLWxpc3QudnVlPzU1MDgiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwiZmlsZSI6ImNvbXBvbmVudHMvcGFwZXIvcGFwZXItbGlzdC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcbi5wYXBlci1saXN0LmRhdGEtdi0yNjRhYzcyNXtcblx0Ym9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNFRUVFRUU7XG5cdHBhZGRpbmc6IDIwcnB4IDA7XG59XG4ucGFwZXItbGlzdD5pbWFnZS5kYXRhLXYtMjY0YWM3MjV7XG5cdHdpZHRoOiAxMDBycHg7XG5cdGhlaWdodDogMTAwcnB4O1xuXHRib3JkZXItcmFkaXVzOiAxMDAlO1xuXHRtYXJnaW4tcmlnaHQ6IDIwcnB4O1xuXHQtd2Via2l0LWZsZXgtc2hyaW5rOiAwO1xuXHQgICAgLW1zLWZsZXgtbmVnYXRpdmU6IDA7XG5cdCAgICAgICAgZmxleC1zaHJpbms6IDA7XG59XG4ucGFwZXItbGlzdD52aWV3LmRhdGEtdi0yNjRhYzcyNXtcblx0LXdlYmtpdC1ib3gtZmxleDogMTtcblx0LXdlYmtpdC1mbGV4OiAxO1xuXHQgICAgLW1zLWZsZXg6IDE7XG5cdCAgICAgICAgZmxleDogMTtcbn1cbi5wYXBlci1saXN0PnZpZXc+dmlldy5kYXRhLXYtMjY0YWM3MjU6Zmlyc3QtY2hpbGQge1xuXHRmb250LXNpemU6IDM1cnB4O1xufVxuLnBhcGVyLWxpc3Q+dmlldz52aWV3OmZpcnN0LWNoaWxkPnZpZXcuZGF0YS12LTI2NGFjNzI1e1xuXHRjb2xvcjogI0NCQ0JDQjtcbn1cbi5wYXBlci1saXN0PnZpZXc+dmlldy5kYXRhLXYtMjY0YWM3MjU6bGFzdC1jaGlsZHtcblx0Y29sb3I6ICM5OTk5OTk7XG59XG4iXSwic291cmNlUm9vdCI6IiJ9*/

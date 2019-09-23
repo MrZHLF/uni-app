@@ -1,0 +1,31 @@
+
+.topic-nav.data-v-47dfd10c{
+	border-top: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+	padding: 20rpx;
+}
+.topic-nav>view.data-v-47dfd10c:first-child{
+	margin-bottom: 10rpx;
+}
+.topic-nav>view:first-child view.data-v-47dfd10c{
+	color: #9E9E9E;
+}
+.topic-nav>view:first-child>view.data-v-47dfd10c:last-child{
+	color: #333333;
+	font-size: 32rpx;
+}
+.topic-nav>view.data-v-47dfd10c:last-child{
+}
+.topic-nav>view:last-child>view.data-v-47dfd10c{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	background: #DDDDDD;
+	color: #9E9E9E;
+	border-radius: 10rpx;
+	margin: 0 10rpx;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vQzovVXNlcnMvemhvdS9EZXNrdG9wL+S7v+ezl+S6i+eZvuenkS9jb21wb25lbnRzL25ld3MvdG9waWMtbmF2LnZ1ZT8yMzQ4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJmaWxlIjoiY29tcG9uZW50cy9uZXdzL3RvcGljLW5hdi5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcbi50b3BpYy1uYXYuZGF0YS12LTQ3ZGZkMTBje1xuXHRib3JkZXItdG9wOiAxcHggc29saWQgI0VFRUVFRTtcblx0Ym9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNFRUVFRUU7XG5cdHBhZGRpbmc6IDIwcnB4O1xufVxuLnRvcGljLW5hdj52aWV3LmRhdGEtdi00N2RmZDEwYzpmaXJzdC1jaGlsZHtcblx0bWFyZ2luLWJvdHRvbTogMTBycHg7XG59XG4udG9waWMtbmF2PnZpZXc6Zmlyc3QtY2hpbGQgdmlldy5kYXRhLXYtNDdkZmQxMGN7XG5cdGNvbG9yOiAjOUU5RTlFO1xufVxuLnRvcGljLW5hdj52aWV3OmZpcnN0LWNoaWxkPnZpZXcuZGF0YS12LTQ3ZGZkMTBjOmxhc3QtY2hpbGR7XG5cdGNvbG9yOiAjMzMzMzMzO1xuXHRmb250LXNpemU6IDMycnB4O1xufVxuLnRvcGljLW5hdj52aWV3LmRhdGEtdi00N2RmZDEwYzpsYXN0LWNoaWxke1xufVxuLnRvcGljLW5hdj52aWV3Omxhc3QtY2hpbGQ+dmlldy5kYXRhLXYtNDdkZmQxMGN7XG5cdC13ZWJraXQtYm94LWZsZXg6IDE7XG5cdC13ZWJraXQtZmxleDogMTtcblx0ICAgIC1tcy1mbGV4OiAxO1xuXHQgICAgICAgIGZsZXg6IDE7XG5cdGJhY2tncm91bmQ6ICNEREREREQ7XG5cdGNvbG9yOiAjOUU5RTlFO1xuXHRib3JkZXItcmFkaXVzOiAxMHJweDtcblx0bWFyZ2luOiAwIDEwcnB4O1xufVxuIl0sInNvdXJjZVJvb3QiOiIifQ==*/
