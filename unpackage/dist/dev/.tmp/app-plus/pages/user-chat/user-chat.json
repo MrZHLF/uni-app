@@ -12,5 +12,8 @@
       }
     ]
   },
-  "usingComponents": {}
+  "usingComponents": {
+    "user-chat-bottom": "/components/user-chat/user-chat-bottom",
+    "user-chat-list": "/components/user-chat/user-chat-list"
+  }
 }

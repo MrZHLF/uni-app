@@ -1,0 +1,22 @@
+
+.other-login.data-v-1beb1a82{
+	padding: 20rpx 80rpx;
+}
+.other-login>view>view.data-v-1beb1a82{
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 100%;
+	font-size: 55rpx;
+	color: #FFFFFF;
+}
+.other-login .icon-QQ.data-v-1beb1a82{
+	background: #2CAEFC;
+}
+.other-login .icon-weixin.data-v-1beb1a82{
+	background: #2BD19B;
+}
+.other-login .icon-xinlangweibo.data-v-1beb1a82{
+	background: #FC7729;
+}
+	
+

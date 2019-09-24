@@ -1,0 +1,302 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 分享 */
+.more-share-model.data-v-e10b30d0{
+	background:rgba(51, 51, 51, 0.49);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 100;
+}
+.more-share.data-v-e10b30d0{
+	position: fixed;
+	z-index: 110;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #FFFFFF;
+}
+.more-share-title.data-v-e10b30d0,.more-share-bottom.data-v-e10b30d0{
+	font-size: 32rpx;
+	padding: 25rpx;
+}
+.more-share-body.data-v-e10b30d0{
+	white-space: nowrap;
+	width: 100%;
+	height: 200rpx;
+	border-bottom: 1rpx solid #EEEEEE;
+	display: -webkit-box!important;
+	display: -webkit-flex!important;
+	display: -ms-flexbox!important;
+	display: flex!important;
+	line-height: 200rpx!important;
+}
+.more-share-item.data-v-e10b30d0{
+	width: 25%;
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	height: 100%;
+}
+.more-share-item>view.data-v-e10b30d0:first-child{
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 100%;
+	font-size: 55rpx;
+	color: #FFFFFF;
+}
+.more-share-item>view.data-v-e10b30d0:last-child{
+	color: #7A7A7A;
+}
+.more-share-hover.data-v-e10b30d0{
+	background: #EEEEEE;
+}
+.more-share-wx.data-v-e10b30d0{
+	background: #2AD19B;
+}
+.more-share-pyq.data-v-e10b30d0{
+	background: #514D4C;
+}
+.more-share-wb.data-v-e10b30d0{
+	background: #EE5E5E;
+}
+.more-share-qq.data-v-e10b30d0{
+	background: #4A73BA;
+}
+
+

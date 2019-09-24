@@ -12,7 +12,10 @@
     "pages/topic-detail/topic-detail",
     "components/paper/paper-list",
     "pages/user-list/user-list",
-    "pages/user-chat/user-chat"
+    "pages/user-chat/user-chat",
+    "pages/detail/detail",
+    "pages/user-set/user-set",
+    "pages/user-set-repassword/user-set-repassword"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -59,6 +62,6 @@
     "autoclose": false
   },
   "appname": "仿糗事百科",
-  "compilerVersion": "2.2.2",
+  "compilerVersion": "2.3.2",
   "usingComponents": {}
 }

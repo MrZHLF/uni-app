@@ -1,10 +1,10 @@
 
-.user-list.data-v-6765dc2c{
+.user-list.data-v-50d47e84{
 	margin: 0 20rpx;
 	padding: 20rpx 0;
 	border-bottom: 1px solid #EEEEEE;
 }
-.user-list>image.data-v-6765dc2c{
+.user-list>image.data-v-50d47e84{
 	width: 100rpx;
 	height: 100rpx;
 	border-radius: 100%;
@@ -13,20 +13,20 @@
 	    -ms-flex-negative: 0;
 	        flex-shrink: 0;
 }
-.user-list>view.data-v-6765dc2c:first-of-type{
+.user-list>view.data-v-50d47e84:first-of-type{
 	-webkit-box-flex: 1;
 	-webkit-flex: 1;
 	    -ms-flex: 1;
 	        flex: 1;
 }
-.user-list>view:first-of-type>view.data-v-6765dc2c:first-child{
+.user-list>view:first-of-type>view.data-v-50d47e84:first-child{
 	font-size: 35rpx;
 }
-.user-list>view.data-v-6765dc2c:last-of-type{
+.user-list>view.data-v-50d47e84:last-of-type{
 	width: 80rpx;
 	color: #CCCCCC;
 }
-.icon-zengjia1.data-v-6765dc2c{
+.icon-zengjia1.data-v-50d47e84{
 	color: #F8F918 !important;
 }
 

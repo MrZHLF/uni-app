@@ -159,7 +159,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 82:
+/***/ 84:
 /*!*************************************************************************************!*\
   !*** C:/Users/zhou/Desktop/仿糗事百科/main.js?{"page":"components%2Fnews%2Ftopic-list"} ***!
   \*************************************************************************************/
@@ -176,5 +176,5 @@ createPage(_topicList.default);
 
 /***/ })
 
-},[[82,"common/runtime","common/vendor"]]]);
+},[[84,"common/runtime","common/vendor"]]]);
 //# sourceMappingURL=../../../.sourcemap/mp-weixin/components/news/topic-list.js.map

@@ -13,7 +13,9 @@
     "components/paper/paper-list",
     "pages/user-list/user-list",
     "pages/user-chat/user-chat",
-    "pages/detail/detail"
+    "pages/detail/detail",
+    "pages/user-set/user-set",
+    "pages/user-set-repassword/user-set-repassword"
   ],
   "subPackages": [],
   "window": {
@@ -55,5 +57,5 @@
     ]
   },
   "usingComponents": {},
-  "sitemapLocation": "sitemap48.json"
+  "sitemapLocation": "sitemap1.json"
 }

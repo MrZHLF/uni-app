@@ -1,18 +1,18 @@
 
-.topic-list.data-v-7b2bc6b1{
+.topic-list.data-v-ebb600f6{
 		padding: 20rpx 0;
 		border-bottom: 1rpx solid #EEEEEE;
 }
-.topic-list image.data-v-7b2bc6b1 {
+.topic-list image.data-v-ebb600f6 {
 		width: 150rpx;
 		height: 150rpx;
 		border-radius: 10rpx;
 		margin-right: 10rpx;
 }
-.topic-list>view>view.data-v-7b2bc6b1{
+.topic-list>view>view.data-v-ebb600f6{
 		color: #A4A4A4;
 }
-.topic-list>view>view.data-v-7b2bc6b1:first-child{
+.topic-list>view>view.data-v-ebb600f6:first-child{
 		color: #333333;
 		font-size: 32rpx;
 }

@@ -105,7 +105,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var uniBadge = function uniBadge() {return __webpack_require__.e(/*! import() | components/uni-badge/uni-badge */ "components/uni-badge/uni-badge").then(__webpack_require__.bind(null, /*! ../../components/uni-badge/uni-badge.vue */ 175));};var _default =
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var uniBadge = function uniBadge() {return __webpack_require__.e(/*! import() | components/uni-badge/uni-badge */ "components/uni-badge/uni-badge").then(__webpack_require__.bind(null, /*! ../../components/uni-badge/uni-badge.vue */ 191));};var _default =
 
 
 
@@ -167,7 +167,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 97:
+/***/ 99:
 /*!**************************************************************************************!*\
   !*** C:/Users/zhou/Desktop/仿糗事百科/main.js?{"page":"components%2Fpaper%2Fpaper-list"} ***!
   \**************************************************************************************/
@@ -184,5 +184,5 @@ createPage(_paperList.default);
 
 /***/ })
 
-},[[97,"common/runtime","common/vendor"]]]);
+},[[99,"common/runtime","common/vendor"]]]);
 //# sourceMappingURL=../../../.sourcemap/mp-weixin/components/paper/paper-list.js.map
