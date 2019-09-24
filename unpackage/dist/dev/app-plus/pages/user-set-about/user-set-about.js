@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"user-sex-about-t{ padding: ",[0,40]," 0; }\n.",[1],"user-sex-about-t\x3ewx-view{ color: #CCCCCC; }\n.",[1],"user-sex-about-t\x3ewx-image{ margin-top: ",[0,50],"; margin-bottom: ",[0,30],"; width: 65%; }\n",],undefined,{path:"./pages/user-set-about/user-set-about.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/user-set-about/user-set-about.wxml') } }));

@@ -267,6 +267,52 @@
 				}
 			}
         }
+        ,{
+            "path" : "pages/user-set-email/user-set-email",
+            "style" : {
+				"navigationBarTitleText":"修改邮箱",
+				"app-plus":{
+					"scrollIndicator":"none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user-set-userinfo/user-set-userinfo",
+            "style" : {
+            	"navigationBarTitleText":"修改资料",
+            	"app-plus":{
+            		"scrollIndicator":"none"
+            	}
+            }
+        }
+        ,{
+            "path" : "pages/user-set-help/user-set-help",
+            "style" : {
+            	"navigationBarTitleText":"意见反馈",
+            	"app-plus":{
+            		"scrollIndicator":"none"
+            	}
+            }
+        }
+        ,{
+            "path" : "pages/user-set-about/user-set-about",
+            "style" : {
+            	"navigationBarTitleText":"关于糗百",
+            	"app-plus":{
+            		"scrollIndicator":"none"
+            	}
+            }
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"app-plus":{
+					"titleNView":false,
+					"bounce":"none",
+					"scrollIndicator":"none"
+				}
+			}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

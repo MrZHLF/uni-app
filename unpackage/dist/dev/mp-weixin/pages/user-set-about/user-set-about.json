@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "关于糗百",
+  "usingComponents": {
+    "home-list-item": "/components/home/home-list-item"
+  }
+}

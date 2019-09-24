@@ -1,0 +1,1 @@
+<view><uni-status-bar vue-id="1" bgcolor="#FFE933" bind:__l="__l"></uni-status-bar>登录</view>

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "uni-status-bar": "/components/uni-status-bar/uni-status-bar"
+  }
+}

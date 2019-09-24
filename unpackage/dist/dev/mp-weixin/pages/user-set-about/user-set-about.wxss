@@ -1,0 +1,13 @@
+
+.user-sex-about-t{
+	padding: 40rpx 0;
+}
+.user-sex-about-t>view{
+	color: #CCCCCC;
+}
+.user-sex-about-t>image{
+	margin-top: 50rpx;
+	margin-bottom: 30rpx;
+	width: 65%;
+}
+
