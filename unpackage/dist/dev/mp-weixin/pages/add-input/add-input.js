@@ -208,7 +208,7 @@ var _uploudImages = _interopRequireDefault(__webpack_require__(/*! ../../compone
 //
 //
 //
-var _changelook = ['所有人可见', '仅自己可见'];var uniNavBar = function uniNavBar() {return __webpack_require__.e(/*! import() | components/uni-nav-bar/uni-nav-bar */ "components/uni-nav-bar/uni-nav-bar").then(__webpack_require__.bind(null, /*! ../../components/uni-nav-bar/uni-nav-bar */ 244));};var uniPopup = function uniPopup() {return __webpack_require__.e(/*! import() | components/uni-popup/uni-popup */ "components/uni-popup/uni-popup").then(__webpack_require__.bind(null, /*! ../../components/uni-popup/uni-popup.vue */ 251));};var _default = { data: function data() {return { yinsi: "所有人可见", text: "", //文本框
+var _changelook = ['所有人可见', '仅自己可见'];var uniNavBar = function uniNavBar() {return __webpack_require__.e(/*! import() | components/uni-nav-bar/uni-nav-bar */ "components/uni-nav-bar/uni-nav-bar").then(__webpack_require__.bind(null, /*! ../../components/uni-nav-bar/uni-nav-bar */ 266));};var uniPopup = function uniPopup() {return __webpack_require__.e(/*! import() | components/uni-popup/uni-popup */ "components/uni-popup/uni-popup").then(__webpack_require__.bind(null, /*! ../../components/uni-popup/uni-popup.vue */ 273));};var _default = { data: function data() {return { yinsi: "所有人可见", text: "", //文本框
       imageList: [], //图片存储
       showpopup: true, //弹出框
       isget: false //是否保存

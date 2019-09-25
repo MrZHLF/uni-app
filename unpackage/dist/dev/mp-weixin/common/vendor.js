@@ -7695,7 +7695,7 @@ module.exports = g;
 
 /***/ }),
 
-/***/ 372:
+/***/ 334:
 /*!*************************************************************************************!*\
   !*** C:/Users/zhou/Desktop/仿糗事百科/components/mpvue-citypicker/city-data/province.js ***!
   \*************************************************************************************/
@@ -7845,7 +7845,7 @@ provinceData;exports.default = _default;
 
 /***/ }),
 
-/***/ 373:
+/***/ 335:
 /*!*********************************************************************************!*\
   !*** C:/Users/zhou/Desktop/仿糗事百科/components/mpvue-citypicker/city-data/city.js ***!
   \*********************************************************************************/
@@ -9359,7 +9359,7 @@ cityData;exports.default = _default;
 
 /***/ }),
 
-/***/ 374:
+/***/ 336:
 /*!*********************************************************************************!*\
   !*** C:/Users/zhou/Desktop/仿糗事百科/components/mpvue-citypicker/city-data/area.js ***!
   \*********************************************************************************/
@@ -22827,7 +22827,7 @@ module.exports = {"_from":"@dcloudio/uni-stat@next","_id":"@dcloudio/uni-stat@2.
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": { "usingComponents": { "index-list": "/components/index/index-list", "swiper-tab-head": "/components/index/swiper-tab-head", "load-more": "/components/common/load-more", "no-thing": "/components/common/no-thing" } }, "pages/news/news": { "usingComponents": { "news-nav-bar": "/components/news/news-nav-bar", "common-list": "/components/common/common-list", "load-more": "/components/common/load-more", "topic-nav": "/components/news/topic-nav", "topic-list": "/components/news/topic-list" } }, "pages/paper/paper": { "enablePullDownRefresh": true, "navigationBarTitleText": "小纸条", "usingComponents": { "paper-list": "/components/paper/paper-list", "load-more": "/components/common/load-more", "paper-left-popup": "/components/paper/paper-left-popup" } }, "pages/home/home": { "navigationBarTitleText": "我的", "usingComponents": { "home-list-item": "/components/home/home-list-item", "home-info": "/components/home/home-info", "other-login": "/components/home/other-login", "home-data": "/components/home/home-data" } }, "pages/search/search": { "enablePullDownRefresh": true, "usingComponents": { "indx-list": "/components/index/index-list", "no-thing": "/components/common/no-thing", "load-more": "/components/common/load-more" } }, "pages/add-input/add-input": { "usingComponents": { "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar", "uploud-images": "/components/common/uploud-images/uploud-images", "uni-popup": "/components/uni-popup/uni-popup" } }, "components/common/uploud-images/uploud-images": { "usingComponents": {} }, "components/news/topic-list": { "usingComponents": {} }, "pages/topic-nav/topic-nav": { "navigationBarTitleText": "话题分类", "usingComponents": { "swiper-tab-head": "/components/index/swiper-tab-head", "no-thing": "/components/common/no-thing", "load-more": "/components/common/load-more", "topic-list": "/components/news/topic-list" } }, "pages/topic-detail/topic-detail": { "enablePullDownRefresh": true, "usingComponents": { "topic-info": "/components/topic/topic-info", "swiper-tab-head": "/components/index/swiper-tab-head", "common-list": "/components/common/common-list", "load-more": "/components/common/load-more" } }, "components/paper/paper-list": { "usingComponents": { "uni-badge": "/components/uni-badge/uni-badge" } }, "pages/user-list/user-list": { "usingComponents": { "swiper-tab-head": "/components/index/swiper-tab-head", "user-list": "/components/user-list/user-list", "load-more": "/components/common/load-more", "no-thing": "/components/common/no-thing" } }, "pages/user-chat/user-chat": { "navigationBarTitleText": "聊天页", "usingComponents": { "user-chat-bottom": "/components/user-chat/user-chat-bottom", "user-chat-list": "/components/user-chat/user-chat-list" } }, "pages/detail/detail": { "navigationBarTitleText": "内容页", "usingComponents": { "detail-info": "/components/detail/detail-info", "comment-list": "/components/detail/comment-list", "user-chat-bottom": "/components/user-chat/user-chat-bottom", "more-share": "/components/common/more-share" } }, "pages/user-set/user-set": { "navigationBarTitleText": "设置", "usingComponents": { "home-list-item": "/components/home/home-list-item" } }, "pages/user-set-repassword/user-set-repassword": { "navigationBarTitleText": "修改密码", "usingComponents": {} }, "pages/user-set-email/user-set-email": { "navigationBarTitleText": "修改邮箱", "usingComponents": {} }, "pages/user-set-userinfo/user-set-userinfo": { "navigationBarTitleText": "修改资料", "usingComponents": { "mpvue-city-picker": "/components/mpvue-citypicker/mpvueCityPicker" } }, "pages/user-set-help/user-set-help": { "navigationBarTitleText": "意见反馈", "usingComponents": { "uni-collapse": "/components/uni-collapse/uni-collapse", "uni-collapse-item": "/components/uni-collapse-item/uni-collapse-item" } }, "pages/user-set-about/user-set-about": { "navigationBarTitleText": "关于糗百", "usingComponents": { "home-list-item": "/components/home/home-list-item" } }, "pages/login/login": { "usingComponents": {} } }, "globalStyle": { "navigationBarTextStyle": "black", "navigationBarTitleText": "仿糗事百科", "navigationBarBackgroundColor": "#FFFFFF", "backgroundColor": "#FFFFFF" } };exports.default = _default;
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": {}, "pages/news/news": {}, "pages/paper/paper": { "enablePullDownRefresh": true, "navigationBarTitleText": "小纸条" }, "pages/home/home": { "navigationBarTitleText": "我的" }, "pages/search/search": { "enablePullDownRefresh": true }, "pages/add-input/add-input": {}, "components/common/uploud-images/uploud-images": {}, "components/news/topic-list": {}, "pages/topic-nav/topic-nav": { "navigationBarTitleText": "话题分类" }, "pages/topic-detail/topic-detail": { "enablePullDownRefresh": true }, "components/paper/paper-list": {}, "pages/user-list/user-list": {}, "pages/user-chat/user-chat": { "navigationBarTitleText": "聊天页" }, "pages/detail/detail": { "navigationBarTitleText": "内容页" }, "pages/user-set/user-set": { "navigationBarTitleText": "设置" }, "pages/user-set-repassword/user-set-repassword": { "navigationBarTitleText": "修改密码" }, "pages/user-set-email/user-set-email": { "navigationBarTitleText": "修改邮箱" }, "pages/user-set-userinfo/user-set-userinfo": { "navigationBarTitleText": "修改资料" }, "pages/user-set-help/user-set-help": { "navigationBarTitleText": "意见反馈" }, "pages/user-set-about/user-set-about": { "navigationBarTitleText": "关于糗百" }, "pages/login/login": {} }, "globalStyle": { "navigationBarTextStyle": "black", "navigationBarTitleText": "仿糗事百科", "navigationBarBackgroundColor": "#FFFFFF", "backgroundColor": "#FFFFFF" } };exports.default = _default;
 
 /***/ }),
 

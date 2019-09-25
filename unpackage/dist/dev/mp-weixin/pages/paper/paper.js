@@ -145,7 +145,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _paperList = _interopRequireDefault(__webpack_require__(/*! ../../components/paper/paper-list */ 42));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var paperLeftPopup = function paperLeftPopup() {return __webpack_require__.e(/*! import() | components/paper/paper-left-popup */ "components/paper/paper-left-popup").then(__webpack_require__.bind(null, /*! ../../components/paper/paper-left-popup */ 202));};var loadMore = function loadMore() {return __webpack_require__.e(/*! import() | components/common/load-more */ "components/common/load-more").then(__webpack_require__.bind(null, /*! ../../components/common/load-more */ 167));};var _default =
+var _paperList = _interopRequireDefault(__webpack_require__(/*! ../../components/paper/paper-list */ 42));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var paperLeftPopup = function paperLeftPopup() {return __webpack_require__.e(/*! import() | components/paper/paper-left-popup */ "components/paper/paper-left-popup").then(__webpack_require__.bind(null, /*! ../../components/paper/paper-left-popup */ 224));};var loadMore = function loadMore() {return __webpack_require__.e(/*! import() | components/common/load-more */ "components/common/load-more").then(__webpack_require__.bind(null, /*! ../../components/common/load-more */ 189));};var _default =
 
 {
   data: function data() {
@@ -444,7 +444,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var uniBadge = function uniBadge() {return __webpack_require__.e(/*! import() | components/uni-badge/uni-badge */ "components/uni-badge/uni-badge").then(__webpack_require__.bind(null, /*! ../../components/uni-badge/uni-badge.vue */ 209));};var _default =
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var uniBadge = function uniBadge() {return __webpack_require__.e(/*! import() | components/uni-badge/uni-badge */ "components/uni-badge/uni-badge").then(__webpack_require__.bind(null, /*! ../../components/uni-badge/uni-badge.vue */ 231));};var _default =
 
 
 

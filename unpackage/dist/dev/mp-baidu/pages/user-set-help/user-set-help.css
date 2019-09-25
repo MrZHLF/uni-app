@@ -1,0 +1,23 @@
+/* 公共按钮 */
+.user-set-btn{
+	width: 100%;
+	margin: 20rpx 0;
+	background: #FFE933!important;
+	border: 0!important;
+	color: #333333!important;
+}
+.user-set-btn-disable{
+	background: #F4F4F4!important;
+	border: 1px solid #EEEEEE!important;
+	color: #909090!important;
+}
+.body{
+	padding: 0 20rpx!important;
+}
+.common-input{
+	font-size: 30rpx;
+	border-bottom: 1px solid #F4F4F4;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vQzovVXNlcnMvemhvdS9EZXNrdG9wL+S7v+ezl+S6i+eZvuenkS9wYWdlcy91c2VyLXNldC1oZWxwL3VzZXItc2V0LWhlbHAudnVlPzA4NjYiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsImZpbGUiOiJwYWdlcy91c2VyLXNldC1oZWxwL3VzZXItc2V0LWhlbHAuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyog5YWs5YWx5oyJ6ZKuICovXG4udXNlci1zZXQtYnRue1xyXG5cdHdpZHRoOiAxMDAlO1xyXG5cdG1hcmdpbjogMjBycHggMDtcclxuXHRiYWNrZ3JvdW5kOiAjRkZFOTMzIWltcG9ydGFudDtcclxuXHRib3JkZXI6IDAhaW1wb3J0YW50O1xyXG5cdGNvbG9yOiAjMzMzMzMzIWltcG9ydGFudDtcbn1cbi51c2VyLXNldC1idG4tZGlzYWJsZXtcclxuXHRiYWNrZ3JvdW5kOiAjRjRGNEY0IWltcG9ydGFudDtcclxuXHRib3JkZXI6IDFweCBzb2xpZCAjRUVFRUVFIWltcG9ydGFudDtcclxuXHRjb2xvcjogIzkwOTA5MCFpbXBvcnRhbnQ7XG59XG4uYm9keXtcclxuXHRwYWRkaW5nOiAwIDIwcnB4IWltcG9ydGFudDtcbn1cbi5jb21tb24taW5wdXR7XHJcblx0Zm9udC1zaXplOiAzMHJweDtcclxuXHRib3JkZXItYm90dG9tOiAxcHggc29saWQgI0Y0RjRGNDtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0=*/

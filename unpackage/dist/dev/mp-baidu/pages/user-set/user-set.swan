@@ -1,0 +1,1 @@
+<view class="body"><block s-for="{{list}}" s-for-item="item" s-for-index="index" s-key="index"><block><home-list-item vue-id="{{'1-'+index}}" item="{{item}}" index="{{index}}"></home-list-item></block></block><button class="user-set-btn" type="primary">退出登录</button></view>

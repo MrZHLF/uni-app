@@ -38,7 +38,7 @@
 	export default {
 		data() {
 			return {
-				islogin:false,
+				islogin:true,
 				list:[
 					{ icon:"liulan",name:"浏览历史",clicktype:"",url:""},
 					{ icon:"huiyuanvip",name:"糗百认证",clicktype:"",url:"" },

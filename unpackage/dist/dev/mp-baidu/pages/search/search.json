@@ -1,5 +1,6 @@
 {
   "enablePullDownRefresh": true,
+  "component": true,
   "usingComponents": {
     "indx-list": "/components/index/index-list",
     "no-thing": "/components/common/no-thing",

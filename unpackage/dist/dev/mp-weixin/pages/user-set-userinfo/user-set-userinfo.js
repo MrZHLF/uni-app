@@ -192,7 +192,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var sex = ['不限', '男', '女'];
 var qg = ['秘密', '未婚', '已婚'];
-var job = ['秘密', 'IT', '老师', '医生'];var mpvueCityPicker = function mpvueCityPicker() {return Promise.all(/*! import() | components/mpvue-citypicker/mpvueCityPicker */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/mpvue-citypicker/mpvueCityPicker")]).then(__webpack_require__.bind(null, /*! ../../components/mpvue-citypicker/mpvueCityPicker.vue */ 367));};var _default =
+var job = ['秘密', 'IT', '老师', '医生'];var mpvueCityPicker = function mpvueCityPicker() {return Promise.all(/*! import() | components/mpvue-citypicker/mpvueCityPicker */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/mpvue-citypicker/mpvueCityPicker")]).then(__webpack_require__.bind(null, /*! ../../components/mpvue-citypicker/mpvueCityPicker.vue */ 329));};var _default =
 
 {
   data: function data() {

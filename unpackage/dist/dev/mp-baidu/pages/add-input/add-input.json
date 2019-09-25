@@ -1,4 +1,5 @@
 {
+  "component": true,
   "usingComponents": {
     "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
     "uploud-images": "/components/common/uploud-images/uploud-images",

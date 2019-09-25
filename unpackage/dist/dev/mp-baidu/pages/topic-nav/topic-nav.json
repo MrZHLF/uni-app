@@ -1,5 +1,6 @@
 {
   "navigationBarTitleText": "话题分类",
+  "component": true,
   "usingComponents": {
     "swiper-tab-head": "/components/index/swiper-tab-head",
     "no-thing": "/components/common/no-thing",

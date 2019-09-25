@@ -20,7 +20,8 @@
     "pages/user-set-userinfo/user-set-userinfo",
     "pages/user-set-help/user-set-help",
     "pages/user-set-about/user-set-about",
-    "pages/login/login"
+    "pages/login/login",
+    "pages/user-space/user-space"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -67,6 +68,6 @@
     "autoclose": false
   },
   "appname": "仿糗事百科",
-  "compilerVersion": "2.3.2",
+  "compilerVersion": "2.3.3",
   "usingComponents": {}
 }

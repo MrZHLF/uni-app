@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "设置",
+  "component": true,
+  "usingComponents": {
+    "home-list-item": "/components/home/home-list-item"
+  }
+}
