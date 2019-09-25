@@ -1,5 +1,5 @@
 <template>
-	<view class="topic-list u-f animated fadeInLeft fast" @tap="opendetail">
+	<view class="topic-list u-f animated fadeIn fast" @tap="opendetail">
 		<image :src="item.titlepic" mode="widthFix" lazy-load></image>
 		<view>
 			<view>{{item.title}}#</view>

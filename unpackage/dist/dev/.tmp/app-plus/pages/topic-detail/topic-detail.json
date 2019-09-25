@@ -1,5 +1,7 @@
 {
   "enablePullDownRefresh": true,
+  "animationType": "slide-in-bottom",
+  "animationDuration": 200,
   "scrollIndicator": "none",
   "titleNView": {
     "type": "transparent",

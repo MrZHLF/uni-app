@@ -2,40 +2,12 @@
 .user-space-margin{
 	margin: 15rpx 0;
 }
-.user-space-head{
+.user-space-data{
+	background: #FFFFFF;
 	position: relative;
-	height: 500rpx;
-	overflow: hidden;
-}
-.user-space-head>image{
-	width: 100%;
-}
-.user-space-head-info{
-	position: absolute;
-	top: 150rpx;
-}
-.user-space-head-info>image{
-	width: 150rpx;
-	height: 150rpx;
-	border-radius: 100%;
-}
-.user-space-head-info>view:first-of-type{
-	color: #FFFFFF;
-	font-size: 35rpx;
-	font-weight: bold;
-	text-shadow: 2rpx 2rpx 10rpx #333333;
-}
-.user-space-head-btn{
-	background: #FFE933;
-	color: #333333;
-	border: 1px solid #FFE933;
-	padding: 0 15rpx;
-	border-radius: 10rpx;
-	font-size: 28rpx;
-}
-.active{
-	background: none;
-	color: #FFFFFF;
-	border: 1px solid #FFFFFF;
+	z-index: 10;
+	border-top-left-radius: 20rpx;
+	border-top-right-radius: 20rpx;
+	margin-top: -15rpx;
 }
 

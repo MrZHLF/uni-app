@@ -1,5 +1,5 @@
 <template>
-	<view class="index-list animated fadeInLeft fast">
+	<view class="index-list animated fadeIn fast">
 		<view class="index-list1 u-f-ac u-f-jsb">
 			<view class="u-f-ac">
 				<image :src="item.userpic" mode="widthFix" lazy-load></image>

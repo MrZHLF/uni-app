@@ -1,5 +1,5 @@
 <template>
-	<view class="user-list u-f-ac animated fadeInLeft fast">
+	<view class="user-list u-f-ac animated fadeIn fast">
 		<image :src="item.userpic" mode="widthFix" lazy-load></image>
 		<view>
 			<view>{{item.username}}</view>

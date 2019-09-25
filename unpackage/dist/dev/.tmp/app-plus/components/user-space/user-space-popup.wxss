@@ -1,0 +1,32 @@
+
+.pape-left-popup-mask.data-v-d15b6bca{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 1999;
+}
+.pape-left-popup.data-v-d15b6bca{
+	position: fixed;
+	right: 0;
+	top: 100rpx;
+	background: #FFFFFF;
+	z-index: 2000;
+	width: 55%;
+	-webkit-box-shadow: 1rpx 1rpx 20rpx 2rpx #CCCCCC;
+	        box-shadow: 1rpx 1rpx 20rpx 2rpx #CCCCCC;
+	
+}
+.pape-left-popup>view.data-v-d15b6bca{
+	padding: 20rpx;
+	font-size: 35rpx;
+}
+.pape-left-popup>view>view.data-v-d15b6bca{
+	margin-right: 10rpx;
+	font-weight: bold;
+}
+.pape-left-popup-h.data-v-d15b6bca{
+	background: #EEEEEE;
+}
+
